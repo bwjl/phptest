@@ -12,14 +12,14 @@ class CallUserFuncArrayDemo
 
     private $a = ['2020-07-28', 'handleStrtotime'];
 
-    private function handleStrtotime(string $date)
+    private function handleStrtotime(string $date): int
     {
         return strtotime($date);
     }
 
-    public function getB()
+    public function getB(): int
     {
-        return  call_user_func_array([$this, $this->a[1]], [$this->a[0]]);
+        return call_user_func_array([$this, $this->a[1]], [$this->a[0]]);
     }
 
 }
