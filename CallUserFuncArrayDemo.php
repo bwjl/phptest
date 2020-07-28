@@ -4,7 +4,7 @@
  * Created with PhpStorm.
  * User: bear
  * Date: 2020/7/28 下午2:43
- * Description:
+ * Description: call_user_func_array 调用自定义函数
  */
 
 class CallUserFuncArrayDemo
