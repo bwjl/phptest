@@ -133,9 +133,7 @@ $json = "{
 
 $array = json_decode($json, true);
 
-var_dump($array);
+//var_dump($array);
 
-
-$a = array_column([$array], 'attributes', 'techAttributes', 'baseAttributes', 'artifactAttributes');
-
+$a = array_column([$array], 'artifactAttributes');
 var_dump($a);
