@@ -11,3 +11,4 @@
 $a = null;
 
 var_dump(strtotime($a)); //bool(false)
+
