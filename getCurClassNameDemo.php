@@ -15,4 +15,4 @@ class getCurClassNameDemo
     }
 }
 
-var_dump((new getCurClassNameDemo())->getCurClassName());
+var_dump((new getCurClassNameDemo())->getCurClassName()); //getCurClassNameDemo
