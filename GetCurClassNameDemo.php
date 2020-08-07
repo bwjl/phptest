@@ -28,4 +28,4 @@ class GetCurClassNameDemoSon extends GetCurClassNameDemo
 
 var_dump((new GetCurClassNameDemo())->getCurClassName()); //getCurClassNameDemo
 var_dump((new GetCurClassNameDemoSon())->getCurClassName()); //getCurClassNameDemo
-var_dump((new GetCurClassNameDemoSon())->getClass()); //
+var_dump((new GetCurClassNameDemoSon())->getClass()); //GetCurClassNameDemoSon
