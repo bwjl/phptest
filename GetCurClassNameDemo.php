@@ -13,6 +13,11 @@ class GetCurClassNameDemo
     {
         return __CLASS__;
     }
+
+    public function getClass()
+    {
+        return get_class($this);
+    }
 }
 
 
@@ -23,3 +28,4 @@ class GetCurClassNameDemoSon extends GetCurClassNameDemo
 
 var_dump((new GetCurClassNameDemo())->getCurClassName()); //getCurClassNameDemo
 var_dump((new GetCurClassNameDemoSon())->getCurClassName()); //getCurClassNameDemo
+var_dump((new GetCurClassNameDemoSon())->getClass()); //
