@@ -4,7 +4,7 @@
  * Created with PhpStorm.
  * User: bear
  * Date: 2020/8/7 上午9:38
- * Description:
+ * Description: __CLASS__ 获取当前类的名称
  */
 
 class getCurClassNameDemo
