@@ -24,7 +24,6 @@ class CallUserFuncArrayDemo
 
 }
 
-
 $a = new CallUserFuncArrayDemo();
 
 $b = $a->getB();
