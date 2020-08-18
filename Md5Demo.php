@@ -13,6 +13,6 @@
 $password = 'a12345679';
 $salt = '6y47';
 
-var_dump(md5(md5($password . $salt)));
+var_dump(md5(md5($password . $salt))); //982212cd510a8b143aea11b957822e55
 
 
