@@ -8,7 +8,7 @@
  */
 
 
-$json = '[{"MessageID":"713964193DA642A579938D52B6C2A7CD","TAG":"data-synchronization","BODY":"{\"businessType\":\"FinishedProduct\",\"entityId\":8155,\"httpMethod\":\"get\",\"middleEndOperationType\":\"新增\",\"url\":\"\/merchandise\/finished-product\/8155\"}","nPublishTime":"1598582208194","FirstConsumeTime":"1598594124820","nConsumedTimes":"1","NextConsumeTime":"1598594424820","receiptHandles":["713964193DA642A579938D52B6C2A7CD-MTc3IDE1OTg1OTQxMjQ4MjAgMzAwMDAwIDcgMCBxZDlpbnRlcm5ldC0wMyA3IDIzMw=="]}]';
+$json = '[{"MessageID":"713964194D6242A5799317A3DFA94BC9","TAG":"data-synchronization","BODY":"{\"businessType\":\"Inventory\",\"entityId\":544,\"httpMethod\":\"get\",\"middleEndOperationType\":\"新增\",\"url\":\"\/inventory\/inventory\/sku-type-sum\/A1B88788802\"}","nPublishTime":"1599286215593","FirstConsumeTi":"1599286217689","nConsumedTimes":"1","NextConsumeTime":"1599286517689","receiptHandles":["713964194D6242A5799317A3DFA94BC9-NTc4IDE1OTkyODYyMTc2ODkgMzAwMDAwIDIgMCBxZDlpbnRlcm5ldC0wMSAwIDU3OA=="]}]';
 
 var_dump(json_decode($json, true));
 
