@@ -3,11 +3,14 @@
 /**
  * Created with PhpStorm.
  * User: bear
- * Date: 2020/9/16 下午3:37
- * Description: sprintf 格式化字符串 不足的前面补0
+ * Date: 2020/9/22 上午11:40
+ * Description:
  */
 
 
-$str = '12';
+$val1 = 5;
+$val2 = 0.007;
 
-var_dump(sprintf("%010s", $str));
+var_dump(sprintf("%01.2f", $val1));
+var_dump(sprintf("%06.2f", $val1)); //补0 保证宽度最小为6位
+var_dump(sprintf("%01.2f", $val2));
