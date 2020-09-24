@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../xamppfiles/htdocs/phptest" />
+    </include_path>
+  </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost" id="6eedb4ce-f065-4048-8ea9-f940ff78624e" name="cli" port="8888" use_path_mappings="true" />
+    </servers>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>
