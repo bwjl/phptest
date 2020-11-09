@@ -10,4 +10,4 @@
 $str1 = '0098';
 $str2 = '98';
 
-var_dump($str1 == $str2);
+var_dump($str1 == $str2); //true
