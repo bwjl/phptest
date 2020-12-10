@@ -16,6 +16,12 @@ $val2 = 54.1256;
 var_dump(round($val2, 2));
 var_dump(sprintf("%01.2f", $val2));
 
+$goodsId = 15;
+$goodsId1 = 12345;
+
+var_dump(sprintf("%05s", $goodsId));
+var_dump(sprintf("%05s", $goodsId1));
+
 //var_dump();
 
 
