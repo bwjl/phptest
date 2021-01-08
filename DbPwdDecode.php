@@ -14,9 +14,7 @@
 //PASSWORD   = '11ffLRWOb1qc/8vBD8lAu9tdLE3FIIQLYqsnYL16ZfUnjTSUhV9Ghx0004xU'
 //HOSTPORT    = '3306'
 
-$hostEncrypt = 'dc3bJ806/UxK6QYyXhicy0i/qfReEX0XP51cfSKyR1+mHH600Xo';
-
-var_dump(auth_string($hostEncrypt, 'DECODE', 'jc_project'));
+var_dump(auth_string('dc3bJ806/UxK6QYyXhicy0i/qfReEX0XP51cfSKyR1+mHH600Xo', 'DECODE', 'jc_project'));
 var_dump(auth_string('609bw7RJHQBMH3NzfNLrguXeKTtRDXx91+vDB/36tKvb4Q', 'DECODE', 'jc_project'));
 var_dump(auth_string('7dbdTZ+HhY+Oh4zqBgS6wo9NKE/GZpCe5mqcdjL+DNys', 'DECODE', 'jc_project'));
 var_dump(auth_string('11ffLRWOb1qc/8vBD8lAu9tdLE3FIIQLYqsnYL16ZfUnjTSUhV9Ghx0004xU', 'DECODE', 'jc_project'));
