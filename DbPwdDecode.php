@@ -7,17 +7,15 @@
  * Description:
  */
 
-//[DATABASE_PRINT]
-//HOST       = 'dc3bJ806/UxK6QYyXhicy0i/qfReEX0XP51cfSKyR1+mHH600Xo'
-//DBNAME     = '609bw7RJHQBMH3NzfNLrguXeKTtRDXx91+vDB/36tKvb4Q'
-//USERNAME   = '7dbdTZ+HhY+Oh4zqBgS6wo9NKE/GZpCe5mqcdjL+DNys'
-//PASSWORD   = '11ffLRWOb1qc/8vBD8lAu9tdLE3FIIQLYqsnYL16ZfUnjTSUhV9Ghx0004xU'
-//HOSTPORT    = '3306'
+//HOST       = 'df7cdnhyfAmtD2qhsS0vmxqKKcILauXGo1gkngKmsq6jPqIUR+1BooQ'
+//DBNAME     = '6587Ihj8UFe3OlZOZtTWRv249g4VVdu/agHZ4tbzhTjUlA'
+//USERNAME   = '155dmUmQ+D0OhsaWZqi2RZ+BBv7tWqcj4aodypPCBb+paw'
+//PASSWORD   = '03f26DvxiIfeIUttwqxAmnZlzJy9icfrDVm+9sUK5XINbz1atV1W'
 
-var_dump(auth_string('dc3bJ806/UxK6QYyXhicy0i/qfReEX0XP51cfSKyR1+mHH600Xo', 'DECODE', 'jc_project'));
-var_dump(auth_string('609bw7RJHQBMH3NzfNLrguXeKTtRDXx91+vDB/36tKvb4Q', 'DECODE', 'jc_project'));
-var_dump(auth_string('7dbdTZ+HhY+Oh4zqBgS6wo9NKE/GZpCe5mqcdjL+DNys', 'DECODE', 'jc_project'));
-var_dump(auth_string('11ffLRWOb1qc/8vBD8lAu9tdLE3FIIQLYqsnYL16ZfUnjTSUhV9Ghx0004xU', 'DECODE', 'jc_project'));
+var_dump(auth_string('df7cdnhyfAmtD2qhsS0vmxqKKcILauXGo1gkngKmsq6jPqIUR+1BooQ', 'DECODE', 'jc_project'));
+var_dump(auth_string('6587Ihj8UFe3OlZOZtTWRv249g4VVdu/agHZ4tbzhTjUlA', 'DECODE', 'jc_project'));
+var_dump(auth_string('155dmUmQ+D0OhsaWZqi2RZ+BBv7tWqcj4aodypPCBb+paw', 'DECODE', 'jc_project'));
+var_dump(auth_string('03f26DvxiIfeIUttwqxAmnZlzJy9icfrDVm+9sUK5XINbz1atV1W', 'DECODE', 'jc_project'));
 
 
 function auth_string($string, $operation = 'DECODE', $key = '', $expiry = 0)
