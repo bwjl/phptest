@@ -8,12 +8,12 @@
  */
 
 $array = [
-    ['username' => '13986004080', 'password' => '123456'],
-    ['username' => '13986004081', 'password' => '123457'],
+//    ['username' => '13986004080', 'password' => '123456'],
+//    ['username' => '13986004081', 'password' => '123457'],
 ];
 
 foreach ($array as $item) {
 
 }
 
-var_dump($item);
+var_dump($item1);
