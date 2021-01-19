@@ -12,4 +12,4 @@ $array = [];
 $data = new stdClass();
 $array['data'] = $data;
 
-var_dump(json_encode($array));
+var_dump(json_encode($array)); // "{"data":{}}"
