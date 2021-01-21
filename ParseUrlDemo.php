@@ -7,9 +7,11 @@
  * Description: parse_url 解析URL
  */
 
-$url = 'https://shop.jc-saas.com/h5_project/#/detail?goodsId=7983';
+//$url = 'https://shop.jc-saas.com/h5_project/#/detail?goodsId=7983';
 
-var_dump(parse_url($url));
+$url1 = 'limit=10&page=1&attr=&keywords=';
+
+var_dump(parse_url($url1));
 
 //array(4) {
 //    ["scheme"]=>
@@ -22,8 +24,8 @@ var_dump(parse_url($url));
 //  string(20) "/detail?goodsId=7983"
 //}
 
-$url = 'http://www.baidu.com/index.php?m=content&c=index&a=lists&catid=6&area=0&author=0&h=0®ion=0&s=1&page=1';
-var_dump(parse_url($url));
+//$url = 'http://www.baidu.com/index.php?m=content&c=index&a=lists&catid=6&area=0&author=0&h=0®ion=0&s=1&page=1';
+//var_dump(parse_url($url));
 //array(4) {
 //    ["scheme"]=>
 //  string(4) "http"
