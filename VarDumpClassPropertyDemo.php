@@ -10,11 +10,9 @@
 
 class People
 {
-
     private $name = "bear";
     private $age = 18;
-
-
+    public $goodsMachine;
 }
 
 $people = new People();
@@ -22,5 +20,6 @@ $people1 = new People();
 
 var_dump($people);
 var_dump($people1);
+var_dump($people->goodsMachine);
 
 
