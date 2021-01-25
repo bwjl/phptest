@@ -7,7 +7,7 @@
  * Description: parse_str 将字符串解析为数组
  */
 
-$url1 = 'limit=10&page=1&attr=&keywords=';
+$url1 = 'goods_id=4920';
 
 parse_str($url1, $result1);
 
@@ -15,4 +15,7 @@ $url2 = 'platform_system_id=&platform_version=&entrance_type_id=&event_id=app_00
 parse_str($url2, $result2);
 
 var_dump($result1);
-var_dump($result2);
+//var_dump($result2);
+
+var_dump(['goods_id' => 115]);
+
