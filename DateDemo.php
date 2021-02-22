@@ -19,3 +19,16 @@ $ret = date('Y-m-d', strtotime($item['product_year']) + intval($item['shelf_life
 
 var_dump($ret);
 
+function getExpireDate(string $productYear, int $shelfLife, int $shelfLifeType): string
+{
+    if ($shelfLifeType == 1) {
+        return date('Y-m-d', strtotime($productYear) + intval($shelfLife) * 3600 * 24);
+    } elseif ($shelfLifeType == 2) {
+        return date('Y-m-d', strtotime('+ ' . $shelfLife . 'months ', strtotime($productYear)));
+    }
+
+    return '';
+}
+
+var_dump(getExpireDate('2019-10-01', 2, 2));
+var_dump(getExpireDate('2019-10-01', 2, 1));
