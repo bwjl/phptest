@@ -18,3 +18,6 @@ $time = strtotime(str_replace('.', '-', $date));
 
 var_dump(date('Y-m-d', $time));
 
+$time = strtotime(date('Y-m-d'));
+var_dump($time);
+var_dump(date('Y-m-d', $time));
